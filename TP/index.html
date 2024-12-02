@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>TD/TP web responsive</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/css/style.css" rel="stylesheet">
+        <link media="print" href="/css/print.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>TD/TP Web Responsive</h1>
+            <picture>
+                <source srcset="./assets/imgHTML5bouclier.png">
+                <img src="./assets/imgHTML5bouclier.png">
+            </picture>
+        </header>
+        
+        <nav>
+            <div><a href="#">Section 1</a></div>
+            <div><a href="#">Section 2</a></div>
+            <div><a href="#">Section 3</a></div>
+        </nav>
+        
+        <div class="articles">
+            <h2>Articles</h2>
+            <article>
+                <h3>Article 1</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p>Suspendisse posuere luctus purus sed ultrices.</p>
+                <p>Nam ligula mauris, lobortis eu ligula ac, porttitor vestibulum neque.</p>
+                <p>Sed ut pulvinar lectus, nec consequat nibh.</p>
+            </article>
+            <article>
+                <h3>Article 2</h3>
+                <p>Donec euismod ex et mauris ultricies lacinia.</p>
+                <p>Vivamus ac laoreet est.</p>
+                <p>Maecenas et nulla urna.</p>
+                <p>Phasellus sollicitudin vel turpis at iaculis.</p>
+            </article>
+
+        </div>
+
+        <div class="liste">
+            <h2>Listes</h2>
+            <ol>
+                <li>Liste</li>
+                <li>Liste</li>
+                <ul>
+                    <li>Liste</li>
+                    <li>Liste</li>
+                </ul>
+                <li>Liste</li>
+            </ol>
+        </div>
+
+        <div class="formulaire">
+            <form action="#" method="POST">
+                <label for="nom">Nom :</label>
+                <input type="text" name="nom" id="nom"><br>
+                <label for="select">Quel est votre animal préféré</label>
+                <select name="pets" id="pet-select">
+                    <option value="">--Choix--</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="hamster">Hamster</option>
+                    <option value="parrot">Parrot</option>
+                    <option value="spider">Spider</option>
+                    <option value="goldfish">Goldfish</option>
+                  </select><br>
+                  <input type="submit" value="Envoyer">
+            </form>
+        </div>
+
+        <footer>
+            <h3>Footer</h3>
+        </footer>
+        
+    </body>
+</html>

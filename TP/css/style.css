@@ -1,0 +1,61 @@
+body {
+    background-image: url(../assets/fond-blanc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+
+}
+
+header{
+    color: white;
+    background: red;
+    height: 20vh;
+    text-align: left;
+}
+
+header h1{
+    float: left;
+    margin: 15px;
+}
+header picture img {
+    float: right;
+    height: 100%;
+
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav div {
+    background: #AA33BB;
+}
+
+body h2:active {
+    background-color: rgba(255, 255, 0,0.4);
+}
+
+article p {
+    display: none;
+    transition: 0.7s;
+}
+
+.articles article:active p{
+    display: block;
+    transition: 0.7s;
+}
+
+footer {
+    background: blue;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) { /* telephone */
+}
+
+@media screen and (max-width:1024px) { /* tablette */
+    footer {
+        background: violet;
+    }
+}

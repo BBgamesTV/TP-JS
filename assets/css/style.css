@@ -1,0 +1,53 @@
+*{
+    background: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+header, main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    flex-direction: row-reverse;
+}
+
+.s1 {
+    background-color: darkorange;
+}
+
+.s2 {
+    background-color:darkslateblue;
+}
+
+.s3 {
+    background-color:aquamarine;
+}
+
+section {
+    width: 80%;
+}
+
+section, section * {
+    padding: 25px;
+    margin: 12px;
+    background: white;
+    color: black;
+}
+
+@media screen and (max-width:768px) {
+    header, main {
+        display: block;
+    }
+}
+
+@media print{
+    body {
+        background: white;
+    }
+}

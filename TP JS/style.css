@@ -1,0 +1,120 @@
+@font-face {
+    font-family: minecraft;
+    src: url(./Minecraft.ttf);
+}
+
+@font-face {
+    font-family: minecraft2;
+    src: url(./Minecraftia-Regular.ttf);
+}
+
+div {
+    background: black;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.princiaple {
+    background-image: url(./2024-10-13_18.50.19.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: minecraft2;
+    margin: 0;
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+    user-select: none;
+    scroll-behavior: smooth;
+    user-select: none;
+}
+
+h1 {
+    letter-spacing: 25px;
+    font-size: 7em;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    letter-spacing: 5px;
+    font-size: 2em;
+}
+
+
+p {
+    color: white;
+    background:black;
+    font-family: minecraft;
+    padding: 12px 24px;
+    border-radius: 45px;
+}
+
+.hovered {
+    border: 2px solid black;
+    color: black;
+    background: white;
+  }
+
+
+  /* Styles généraux pour le tableau */
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: minecraft;
+    color: black;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+tbody tr:hover {
+    background-color: #d1e7dd;
+    cursor: pointer;
+}
+
+/* Bordures */
+th, td {
+    border: 1px solid #ddd;
+}
+
+/* Ajout d'une légère animation pour le survol */
+tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+/* Style des coins arrondis */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
